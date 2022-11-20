@@ -1,0 +1,158 @@
+/*Phone*/
+@media screen and (max-width: 760px) {
+    div.offers {
+        font-size: 2vw;
+    }
+    header {
+        height: 12em;
+    }
+    img.logo {
+        height: 5.5em;
+        width: 5.5em;
+        justify-items: center;
+        align-items: center;
+    }
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+    nav a {
+        font-size: 3vw;
+        padding-bottom: 0.75;
+        font-weight: 800;
+    }
+    div.actions-full {
+        display: none;
+    }
+    .actions-half {
+        display: grid;
+    }
+    .actions-half img{
+        height: 5vw;
+        width: 5vw;
+    }
+    div.main-heading {
+        font-size: 4vw;
+    }
+    h1.a-heading {
+        font-size: 4vw;
+    }
+    div.a-text {
+        font-size: 2.5vw;
+    }
+    .home-u-heading {
+        font-size: 3vw;
+    }
+    h3.home-desc-heading {
+        font-size: 3vw;
+    }
+    section.home-desc {
+        font-size: 2vw;
+    }
+    .u-heading {
+        font-size: 3vw;
+    }
+
+    h3.u-desc-heading {
+        font-size: 4vw;
+    }
+    section.u-desc {
+        width: 100%;
+        font-size: 2vw;
+    }
+    footer h3 {
+        font-size: 2.5vw;
+    }
+    footer div {
+        font-size: 2vw;
+    }
+    div.footer-icons img {
+        height: 2.5vw;
+        width: 2.5vw;
+    }
+    div.bottom-divide span, div.legal a{
+        font-size: 1.5vw;
+    }
+
+}
+
+
+/*Tablet*/
+@media screen and (min-width:760px) and (max-width:1440px) {
+    div.offers {
+        font-size: 1.5vw;
+    }
+    header {
+        height: 6em;
+        margin-bottom: 7em;
+        grid-template-columns: 33% 33% 33%;
+    }
+    img.logo {
+        height: 7em;
+        width: 7em;
+        justify-items: center;
+        align-items: center;
+    }
+    nav { 
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+    nav a {
+        font-size: 1.75vw;
+        padding-bottom: 0.75vw;
+        font-weight: 700;
+    }
+    div.actions-full {
+        display: none;
+    }
+    .actions-half {
+        display: grid;
+    }
+    div.main-heading {
+        font-size: 3vw;
+    }
+    h3.home-desc-heading {
+        font-size: 2.5vw;
+    }
+    section.home-desc {
+        width: 90%;
+        font-size: 1.75vw;
+    }
+    h3.u-desc-heading {
+        font-size: 2.5vw;
+    }
+    section.u-desc {
+        font-size: 1.5vw;
+        text-align: justify;
+    }
+    footer h3 {
+        font-size: 1.75vw;
+    }
+    footer div {
+        font-size: 1.5vw;
+    }
+    div.footer-icons img {
+        height: 2vw;
+        width: 2vw;
+    }
+    div.bottom-divide span, div.legal a {
+        font-size: 1.15vw;
+    }
+}
+
+
+
+/* Large Screen */
+@media screen and (min-width:1440px) {
+    div.actions-full {
+        display: grid;
+    }
+    
+    div.actions-half {
+        display: none;
+    }
+}

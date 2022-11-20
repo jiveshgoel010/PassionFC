@@ -1,0 +1,650 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+body {
+    background-color: #1A1A1D;
+    color: #ffffff;
+}
+
+
+a {
+    color: #000000;
+}
+
+
+button {
+    font-family: "Merriweather-regular";
+}
+
+/* Header */
+div.offers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 0.85vw;
+    margin: 0.25rem 0rem;
+    font-family: "Merriweather-light";
+}
+
+
+div.header {
+    background-color: #ffffff;
+    height: 10em;
+    display: grid;
+    grid-template-columns: 15% 54% 30%;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    font-family: "Montserrat-medium";
+}
+
+
+img.logo {
+    height: 9em;
+    width: 9em;
+}
+
+
+nav {
+    display: flex;
+}
+
+
+nav a {
+    flex-direction: row;
+    color: #000000;
+    font-size: 1.15vw;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0vw 1vw 0vw 1vw;
+}
+
+
+nav a:hover {
+    opacity: 0.7;
+    border: #7E7E7E solid 1px;
+    border-radius: 5px;
+}
+
+
+/* Nav actions for large screens*/
+div.actions-full {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    grid-template-rows: 30% 60%;
+    grid-template-columns: 39% 15% 15% 15% 15%;
+    row-gap: 0.75vw;
+}
+
+
+.actions-full img {
+    height: 3em;
+    width: 3em;
+}
+
+
+.actions-full button {
+    height: 2vw;
+    width: 2vw;
+}
+
+
+div.actions-full #login {
+    grid-column: 2/4;
+}
+div.actions-full #signup {
+    grid-column: 4/6;
+}
+
+
+div.actions-full span {
+    padding: 0vw 0vw 0vw 1.5vw;
+}
+
+
+.actions-full input#search {
+    height: 2vw;
+    border-radius: 10px;
+    border: solid #000000 4px;
+    padding-left: 0.5vw;
+    padding-right: 0.25vw;
+    font-weight: 300;
+}
+
+
+div.actions-full img:hover {
+    opacity: 0.7;
+}
+
+/*Nav actions for smaller screens*/
+div.actions-half {
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+div.actions-half #login {
+    grid-column: 1/3;
+}
+div.actions-half #signup {
+    grid-column: 3/5;
+}
+
+
+div.actions-half span {
+    padding: 0vw 0vw 0vw 0.75vw;
+}
+
+
+div.actions-half img:hover {
+    opacity: 0.7;
+}
+
+
+/* Main */
+div.main-heading {
+    display: grid;
+    font-size: 2.25vw;
+    justify-items: center;
+    margin: 2vw 0vw 0vw 0vw;
+    background: linear-gradient(to right, 
+    #631f2d, 
+    #f70a51);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Montserrat-regular";
+}
+
+
+.a-top-heading {
+    display: flex;
+    justify-content: center;
+    margin: 3vw 0vw 0vw 0vw;
+    font-size: 3vw;
+    font-family: "Montserrat-regular";
+}
+
+
+.a-heading {
+    display: flex;
+    justify-content: center;
+    margin: 8vw 0vw 0vw 0vw;
+    font-size: 3vw;
+    font-family: "Montserrat-regular";
+}
+
+
+div.a-img-container {
+    display: flex;
+    width: 80%;
+    height: auto;
+    align-items: center;
+    margin: 2vw auto;
+    border: #ffffff solid 1px;
+}
+
+
+div.choice {
+    background-color: #ffffff;
+    color: #000000;
+    width: 50%;
+    margin: 5vw auto 0vw auto;
+    border-radius: 15px;
+
+}
+
+
+.home-u-heading {
+    display: flex;
+    font-size: 2.25vw;
+    padding: 1.25vw 0vw 1vw 4.25vw;
+    font-family: "Montserrat-regular";
+}
+
+
+div.home-u-img-container {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    padding: 0vw 0vw 2vw 0vw;
+    width: auto;
+    height: auto;
+    gap: 2.5vw;
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 2vw;
+}
+
+
+div.home-u-img-container img {
+    border-radius: 30px;
+    width: 100%;
+    height: auto;
+}
+
+
+div.home-u-img-container img:hover {
+    opacity: 0.8;    
+}
+
+
+div.a-text {
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin: 0vw auto 0vw auto;
+    font-size: 1.5vw;
+    font-family: "Merriweather-regular";
+    
+}
+
+section.home-desc {
+    display: grid;
+    grid-template-columns: 49% 49%;
+    gap: 3vw;
+    width: 85%;
+    margin: 5vw auto 5vw auto;
+    padding: 0vw 0vw 5vw 0vw;
+    font-size: 1.15vw;
+    text-align: justify;
+    font-family: "Merriweather-light";
+}
+
+h3.home-desc-heading {
+    font-size: 1.75vw;
+    color: #c3073f;
+    margin: 3vw 0vw 1vw 0vw;
+    font-family: "Montserrat-regular";
+}
+
+
+/* Footer */
+footer {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+
+footer h3 {
+    font-family: "Montserrat-regular";
+}
+
+
+footer a:hover {
+    text-decoration:underline ;
+}
+
+
+footer div {
+    color: #000000;
+    font-size: 1vw;
+}
+
+
+footer div hr {
+    color: #000000;
+}
+    
+div.top-divide { 
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+    padding: 2vw 0vw;
+    font-family: "Merriweather-light";
+}
+
+div.footer-icons {
+    display: flex;
+    margin: 1vw 0vw;
+}
+
+
+div.footer-icons span {
+    padding: 0vw 0.5vw;
+}
+
+
+div.footer-icons img {
+    height: 1.5vw;
+    width: 1.5vw;
+}
+
+
+div.footer-icons img:hover {
+    opacity: 0.7;
+}
+
+
+div.bottom-divide {
+    background-color:#000000;
+    display: grid;
+    grid-template-columns: 30% 40%;
+    justify-content: center;
+    padding: 1vw 0vw 1.5vw 0vw;
+    align-content: center;
+    font-family: "Merriweather-light";
+    font-size: 1vw;
+}
+
+div.legal {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: center;
+    justify-items: center;
+}
+
+div.bottom-divide span,div.legal a {
+    color: #7E7E7E;
+    padding-top: 1vw;
+    font-size: 1vw;
+}
+
+
+
+/* Associated - Login/Signup Forms */
+/* Form (background) */
+.login-form, .signup-form {
+    display: none;
+    position: fixed; 
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: auto;
+    background-color: #7E7E7E;
+    justify-content: center;
+    align-content: center;
+}
+  
+/* Form Content*/
+.form-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #000000; 
+    width: 50%; /* Could be more or less, depending on screen size */
+    height: auto;
+    justify-content: center;
+    align-content: center;
+}
+
+
+/* Add padding to container elements */
+.container {
+    padding: 2vw;
+}
+  
+
+.form-content h1 {
+    color: #000000;
+    text-align: center;
+    font-size: 2.5vw;
+    font-family: "Montserrat-medium";
+}
+
+
+.form-content p {
+    color: #000000;
+    font-size: 1vw;
+    padding: 1vw 0vw 1vw 0vw;
+    font-family: "Merriweather-regular";
+}
+
+.form-content label {
+    color: #000000;
+    margin: 0vw 0vw 0vw 0vw;
+    padding: 500em 0vw;
+    font-size: 1vw;
+}
+
+
+.form-content span#remember-pwd {
+    color: #000000;
+    font-size: 1vw;
+    padding-left: 0.75vw;
+    font-family: "Merriweather-light";
+}
+
+
+.container a {
+    text-decoration: underline;
+    font-size: 1vw;
+}
+
+
+hr {
+    border: 1px solid #000000;
+}
+   
+
+input[type=email], input[type=text], input[type=password] {
+    width: 100%;
+    padding: 1.25vw;
+    margin: 0.5vw 0vw 1vw 0vw;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+  
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+
+input[type=checkbox] {
+    color: #000000;
+    height: 1vw;
+    width: 1vw;
+}
+  
+/* Set a style for all buttons */
+button {
+    background-color:#1A1A1D;
+    color: white;
+    padding: 0.5vw 1vw;
+    margin: 0.5vw 0vw;
+    cursor: pointer;
+    width: 50%;
+    border-radius: 10px;
+}
+  
+button:hover {
+    opacity:0.8;
+}
+  
+  
+/*cancel and signup buttons */
+.cancelbtn, .signupbtn {
+    width: 40%;
+}
+
+
+.cancelbtn>span , .signupbtn>span {
+    font-size: 0.75vw;
+}
+.signupbtn{
+    background-color: #138030;
+}
+.cancelbtn {
+    background-color: #c3073f;
+}
+
+/* The Close Button */
+.close {
+    display: flex;
+    width: auto;
+    justify-content: right;
+}
+
+.close:hover {
+    opacity: 0.7;
+}  
+
+.clear {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+/* Clear floats */
+.clear::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+  
+/* Change styles for cancel button and signup button on extra small screens */
+  @media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
+
+
+
+/* Main of linked pages*/
+.u-heading {
+    display: flex;
+    justify-content: flex-start;
+    margin: 7vw 0vw 2vw 7.5vw;
+    font-size: 2vw;
+    font-family: "Montserrat-light";
+}
+
+
+div.topwear-main-container, div.bottomwear-main-container, div.footwear-main-container {
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 49% 49%;
+    margin: 0vw auto 0vw auto;
+    padding: 0vw 0vw 2vw 2vw;
+    width: 85%;
+    height: auto;
+    row-gap: 5vw;
+    column-gap: 0.75vw;
+    justify-content: center;
+    justify-items: center;
+}
+
+div.topwear-item, div.bottomwear-item, div.footwear-item{
+    display: grid;
+    grid-template-columns: 49% 49%;
+    margin-top: 2vw;
+    column-gap: 0.5vw;
+}
+
+div.topwear-item img , div.bottomwear-item img , div.footwear-item img {
+    width: 100%;
+    height: auto;
+}
+
+
+div.item-info {
+    padding-top: 1vw;
+    padding-left: 0.2vw;
+}
+
+
+div.item-desc-1 {
+    color: #000000;
+    font-size: 1vw;
+    font-weight: bold;
+    font-family: "Merriweather-regular";
+}
+
+
+div.item-desc-2, div.item-price{
+    font-size: 0.85vw;
+    color: #7E7E7E;
+    font-weight: 600;
+    font-family: "Merriweather-light";
+}
+
+
+section.u-desc {
+    display: grid;
+    grid-template-columns: 60%;
+    margin: 5vw 3vw;
+    padding: 0vw 3vw ;
+    font-size: 1vw;
+    justify-content: center;
+    text-align: center;
+    font-family: "Merriweather-light";
+}
+
+
+h3.u-desc-heading {
+    font-size: 2.25vw;
+    color: #c3073f;
+    margin: 0vw 0vw 1vw 0vw;
+    font-family: "Montserrar-regular";
+}
+
+
+div.promo {
+    display: flex;
+    height: 7vw;
+    max-width: 100%;
+    background-color: #ffff00;
+    margin: 7vw 0vw;
+    color: #000000;
+    font-size: 2vw;
+    justify-content: center;
+    align-items: center;
+}
+
+div.promo span {
+    margin: 0vw 2vw;
+    background-color: #1A1A1D;
+    outline: solid #000000 1px;
+    outline-offset: 3px;
+    border: solid #000000 1px;
+    font-family: "Merriweather-medium";
+}
+
+div.promo > span:hover {
+    opacity: 0.9;
+}
+
+
+#promo {
+    margin: 0vw 0vw 0vw 0vw;
+    padding: 1vw 1.5vw 1vw 1.5vw;
+    align-items: center;
+    align-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

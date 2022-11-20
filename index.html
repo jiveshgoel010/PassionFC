@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>PassionFC - Home</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" href="fonts.css">
+        <link rel="stylesheet" href="media_queries.css">
+    </head>
+
+    <body>
+        
+        <header>
+            <marquee>
+                <div class="offers">
+                    <span>Sign up & Get 15% off</span>
+                    <span>Extra 5% instant discount for all online payments</span>
+                    <span>Free Delivery</span>
+                </div>
+            </marquee>    
+            
+            <div class="header">
+                <img class ="logo "src="Images/Logo.png">
+                
+                <nav>
+                    <a href="index.html" target="_blank">Home</a>
+                    <a href="men.html" target="_blank">Men</a>
+                    <a href="women.html" target="_blank">Women</a>
+                    <a href="collections.html" target="_blank">Collections</a>
+                </nav>
+            
+                <div class="actions-full">
+                    <span id="login"><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button></span>
+                    <span id="signup"><button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Sign Up</button></span>
+                    <span><input id="search" type="search" placeholder="Search"></span>
+                    <span><a href="#"><img src="Images/icons/search-2x.png"></a></span>
+                    <span><a href="#"><img src="Images/icons/account-2x.png"></a></span>
+                    <span><a href="#"><img src="Images/icons/favorite-2x.png"></a></span>
+                    <span><a href="#"><img src="Images/icons/shopping-bag-2x.png"></a></span>
+                </div>
+
+                <div class="actions-half">
+                    <span id="login"><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button></span>
+                    <span id="signup"><button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Sign Up</button></span>
+                    <span><a href="#"><img id="img1" src="Images/icons/search-2x.png"></a></span>
+                    <span><a href="#"><img id="img2" src="Images/icons/account-2x.png"></a></span>
+                    <span><a href="#"><img id="img3" src="Images/icons/favorite-2x.png"></a></span>
+                    <span><a href="#"><img id="img4" src="Images/icons/shopping-bag-2x.png"></a></span>
+                </div>
+            </div>
+
+            <div id="id01" class="login-form">
+                <form class="form-content">
+                  <div class="container">
+                        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close"><img src="Images/icons/cancel-2x.png">
+                        </span>
+                        <h1>Login</h1>
+                        <br>
+                        <hr>
+                        <label for="email"><b>Email</b></label>
+                        <input type="email" placeholder="Enter Email" name="email" required>
+              
+                        <label for="password"><b>Password</b></label>
+                        <input type="password" placeholder="Enter Password" name="password" required>
+                        
+                        <p><a href="#">Forgot Password?</a></p>
+              
+                        <div class="clear">
+                        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn"><span>Cancel</span></button>
+                        <button type="submit" class="signupbtn"><span>Login</span></button>
+                        </div>
+                  </div>
+                </form>
+              </div>
+
+            <div id="id02" class="signup-form">
+                <form class="form-content">
+                  <div class="container">
+                        <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close"><img src="Images/icons/cancel-2x.png">
+                        </span>
+                        <h1>Sign Up</h1>
+                        <p>Sign Up now and get 15% off on your first order.</p>
+                        <hr>
+                        <label for="email"><b>Email</b></label>
+                        <input type="email" placeholder="Enter Email" name="email" required>
+              
+                        <label for="password"><b>Password</b></label>
+                        <input type="password" placeholder="Enter Password" name="password" required>
+              
+                        <label for="psw-repeat"><b>Repeat Password</b></label>
+                        <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+              
+                        <label>
+                        <input type="checkbox" checked="checked" name="remember">
+                        <span id="remember-pwd">Remember me</span>
+                        </label>
+              
+                        <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+              
+                        <div class="clear">
+                        <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn"><span>Cancel</span></button>
+                        <button type="submit" class="signupbtn"><span>Sign Up</span></button>
+                        </div>
+                  </div>
+                </form>
+              </div>
+        </header>
+
+
+        <main>
+            <article class="h-container">
+            <div class="main-heading">
+                <h1>Welcome to PassionFC</h1>
+                <h3>- where Dreams turn to Reality.</h3>
+            </div>
+            </article>
+
+            <div>
+                <h1 class="a-heading">The Beautiful Game.</h1>
+                <div class="a-img-container">
+                    <img src="Images/aesthetics/img5.jpg" width="100%" height="auto">
+                </div>
+
+            </div>
+
+            <div>
+                <h1 class="a-heading">PassionFC - </h1>
+                <div class="a-text">
+                If you love the game, you're a part of the PassionFC community.
+                </div>
+                <div class="a-text">
+                Live it your way today with our gear and apparel collections.
+                </div>
+            </div>
+
+            <div class="choice">
+                <h2 class="home-u-heading">Who are you shopping for?</h2>
+                <div class="home-u-img-container">
+                <span>
+                    <a href="men.html"><img src="Images/men.png" alt=""></a>
+                </span>
+                <span>
+                    <a href = "women.html"><img src="Images/women.png" alt=""></a>
+                </span>
+                </div>
+            </div>
+                        
+            <div>
+                <h1 class="a-heading">Practice Winning Everyday.</h1>
+                <div class="a-img-container">
+                    <img src="Images/aesthetics/img7.jpg" alt="" width="100%" height="auto">
+                </div>
+            </div>
+
+            <section class="home-desc">
+                <div>
+                    <h3 class="home-desc-heading">Stories, Styles and Sportswear at PassionFC.</h3>
+                    <p>Sport keeps us fit. Keeps you mindful. Brings us together. Through sport we have the power to change lives. Whether it is through stories of inspiring athletes. Helping you to get up and get moving. Sportswear featuring the latest technologies, to up your performance. Create new records. We offer a home to the soccer kid within you that dreams of achieving great heights. Our sports clothing keeps you focused before that whistle blows. During the game. And at the finish whistle. We're here to support creators. Improve their game. Their lives. And change the world.
+                    </p><br>
+                    <p>
+                    PassionFC is about more than sportswear and workout clothes. We partner with the best in the industry to co-create. This way we offer our fans the sports apparel and style that match their athletic needs, while keeping sustainability in mind. We're here to support creators. Improve their game. Create change. And we think about the impact we have on our world.
+                    </p>    
+                </div>
+
+                <div>
+                    <h3 class="home-desc-heading">The Best for The Best.</h3>
+                    <p>PassionFC designs for and with athletes. Creators, who love to change the game. Challenge conventions. Break the rules and define new ones. Then break them again. We supply teams and individuals with athletic clothing pre-match. To stay focussed. We design sports apparel that get you to the finish line. To win the match. We support women. We design, innovate and itterate. Testing new technologies in action on the pitch.
+                    </p><br>
+                    <p>
+                    Through our collections we blur the borders between high fashion and high performance. Designed to look good and make you feel good. Our lives are constantly changing. Becoming more and more versatile. And we design with that in mind so that you can achieve the highest of highs.
+                    </p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="top-divide">
+                <div>
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">Order Status</a></li>
+                        <li><a href="#">Delivery</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>About PassionFC</h3>
+                    <ul>
+                        <li><a href="#">Company</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Sustainability</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>More Inspiration</h3>
+                    <hr>
+                    <div class="footer-icons">
+                        <span><img src="Images/icons/facebook.png"></span>
+                        <span><img src="Images/icons/github.png"></span>
+                        <span><img src="Images/icons/instagram.png"></span>
+                        <span><img src="Images/icons/linkedin.png"></span>
+                        <span><img src="Images/icons/twitter.png"></span>
+                        <span><img src="Images/icons/whatsapp.png"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-divide">
+                <span>&copy; PassionFC, All Rights Reserved.</span>
+                <div class="legal">
+                    <span><a href="#">Privacy Policy</a></span>
+                    <span><a href="#">Terms and Conditions</a></span>
+                    <span><a href="#">Terms of Use</a></span>
+                </div>
+            </div>
+        </footer>
+
+        <script>
+            // Getting the form
+            var modal = document.getElementById('id01');
+            
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+        </script>    
+    
+    </body>
+
+</html>
